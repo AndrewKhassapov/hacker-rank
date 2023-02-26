@@ -19,7 +19,7 @@ ${\color{#375eab}Go}$
 
 ${\color{#b07219}Java \space 7/8/15}$
 
-${\color{#f1e05a}JavaScript \space (node/js)}$ 
+${\color{#f1e05a}JavaScript \space (node.js)}$
 
 ${\color{#F18E33}Kotlin}$
 
