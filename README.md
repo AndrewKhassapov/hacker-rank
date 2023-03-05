@@ -10,6 +10,7 @@ People from all over submit and discuss solutions in the **Discussions** forum.
 Solutions are language-agnostic and can be written in[^1]:
 
 <span style="color:#555555">C</span>
+
 ${\color{555555}C}$
 
 <span style="color:#f34b7d">C++</span>
