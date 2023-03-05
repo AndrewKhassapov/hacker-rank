@@ -4,7 +4,7 @@
 
 # Returns the area of the highlighted area when selecting a contiguous block of text in a "PDF viewer".
 # Arrays in R are 1-indexed.
-# @params h: {array} Array of 26 integers representing the heights of each letter.
+# @params h: {array} Array of 26 integers representing the heights of each letter from a-z.
 # @params word: {string} A word consisting of lowercase English alphabetic letters.
 # @returns: {string} The highlight area of the word.
 designerPdfViewer <- function(h, word) {
