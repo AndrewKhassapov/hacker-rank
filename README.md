@@ -9,7 +9,7 @@ People from all over submit and discuss solutions in the **Discussions** forum.
 
 Solutions are language-agnostic and can be written in[^1]:
 
-${\color{555555}C}$
+${\color{#555555}C}$
 
 ${\color{#f34b7d}C++}$
 
