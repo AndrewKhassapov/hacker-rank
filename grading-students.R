@@ -4,7 +4,7 @@
 
 # Returns an array of integers representing the rounded grades.
 # @params grades: {array} Array of integers before rounding.
-# returns: {array} Array of integers after rounding.
+# @returns: {array} Array of integers after rounding.
 gradingStudents <- function(grades) {
     return(lapply(grades, FUN = roundUp))
 }
