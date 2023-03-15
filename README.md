@@ -9,33 +9,33 @@ People from all over submit and discuss solutions in the **Discussions** forum.
 
 Solutions are language-agnostic and can be written in[^1]:
 
-C
+${\color{#555555}C}$
 
-C++
+${\color{#f34b7d}C++}$
 
-C#
+${\color{#178600}C-Sharp}$
 
-Go
+${\color{#375eab}Go}$
 
-Java 7/8/15
+${\color{#b07219}Java \space 7/8/15}$
 
-JavaScript (node.js)
+${\color{#f1e05a}JavaScript \space (node.js)}$
 
-Kotlin
+${\color{#F18E33}Kotlin}$
 
-Lua
+${\color{#000000}Lua}$
 
-PHP
+${\color{#4F5D95}PHP}$
 
-Python 3
+${\color{#3572A5}Python \space 3}$
 
-R
+${\color{#198ce7}R}$
 
-Ruby
+${\color{#701516}Ruby}$
 
-Swift
+${\color{#ffac45}Swift}$
 
-TypeScript
+${\color{#2b7489}TypeScript}$
 
 And more.
 The available languages depend on the problem.
