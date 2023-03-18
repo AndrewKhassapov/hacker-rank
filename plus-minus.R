@@ -9,11 +9,10 @@
 # @see cat() : https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/cat
 # @see sprintf() for C-style string formatting : https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/sprintf
 plusMinus <- function(arr) {
+    positives <- length(arr[arr > 0]) / length(arr)
+    negatives <- length(arr[arr < 0]) / length(arr)
+    zeroes <- 1 - positives - negatives
 
-    positives = length(arr[arr>0]) / length(arr)
-    negatives = length(arr[arr<0]) / length(arr)
-    zeroes = 1 - positives - negatives
-    
-    formattedString = sprintf("%.6f\n%.6f\n%.6f", positives, negatives, zeroes) # Format to 6 decimal places with new lines
+    formattedString <- sprintf("%.6f\n%.6f\n%.6f", positives, negatives, zeroes) # Format to 6 decimal places with new lines
     cat(formattedString) # Remove default formatting of: [1] "<STRING>"
 }
