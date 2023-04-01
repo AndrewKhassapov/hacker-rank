@@ -10,7 +10,7 @@
 sockMerchant <- function(n, ar) {
     frequency <- as.data.frame(table(ar))$Freq # table()$Freq lists how often each value appears.
     pairs <- 0
-    for (i in 1:length(frequency)) {
+    for (i in seq_along(frequency)) {
         pairs <- pairs + floor(frequency[i] / 2)
     }
     return(pairs)
