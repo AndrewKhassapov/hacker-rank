@@ -6,7 +6,7 @@
 #' @param k: {integer} Jump height
 #' @param height: {array} Array of hurdle heights
 #' @returns: {integer} The difference between maximum hurdle height and jump height
-camelcase <- function(s) {
+hurdleRace <- function(k, height) {
    potion_drinks <- max(height) - max(k)
    return(ifelse(potion_drinks > 0, potion_drinks, 0))
 }
